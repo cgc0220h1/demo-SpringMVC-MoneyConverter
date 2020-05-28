@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo-SpringMVC-MoneyConverter:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_SpringMVC_MoneyConverter_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo-SpringMVC-MoneyConverter" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Spring-5.2.3.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-5.2.3.RELEASE" />
+          <element id="library" level="project" name="javax.servlet:jstl:1.2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="demo-SpringMVC-MoneyConverter/web/Web" />
+    </root>
+  </artifact>
+</component>
